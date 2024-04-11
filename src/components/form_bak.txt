@@ -1,0 +1,100 @@
+h1 {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.form {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+.input-container {
+  justify-content: center;
+  margin-top: -30px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 260px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  position: relative;
+}
+
+.identitas {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-height: 50px;
+  position: absolute;
+}
+
+.leftHalf {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-height: 50px;
+  margin-bottom: 140px;
+  margin-top: 70px;
+}
+
+.rightHalf {
+  flex: 1;
+  display: flex;
+  width: 100px;
+  max-height: 50px;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 140px;
+  margin-top: 70px;
+}
+
+input {
+  width: 30px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonBox {
+  margin-bottom: 50px;
+}
+
+.button {
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonPrint {
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: rgb(132, 132, 132);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.results {
+  width: 100%;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  text-align: left;
+
+  padding: 20px;
+}
+
+label {
+  font-size: 8px;
+}

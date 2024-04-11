@@ -1,0 +1,325 @@
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* width: 100%;
+margin-top: 25px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+text-align: left;
+margin-left: -20px;
+padding: 20px 20px 20px 20px;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(10px);
+border: 2px solid rgba(255, 255, 255, 0.3);
+} */
+
+p {
+  padding-bottom: 2px;
+}
+
+ol {
+  margin-left: -10px;
+}
+
+li {
+  margin-left: -10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 360px) {
+  .leftHalf {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 50px;
+    margin-bottom: 140px;
+    margin-top: 80px;
+    justify-content: end;
+    margin-right: 0 !important;
+  }
+
+  .rightHalf {
+    flex: 1;
+    display: flex;
+    width: 100px;
+    max-height: 50px;
+    flex-wrap: wrap;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 140px;
+    margin-top: 80px;
+    margin-left: 0 !important;
+  }
+
+  input {
+    width: 30px;
+    padding: 10px;
+    /* margin: 0px 5px 5px 5px; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    border-radius: 8px;
+    border-color: white;
+    box-shadow: white;
+    text-align: center;
+  }
+
+  .input-container {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background: rgba(197, 197, 197, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    height: calc(120px + 350px - (3 * 10vw));
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: -20px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 260px;
+  }
+}
+
+.form {
+  width: calc(110% - (14 * 2vw));
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.input-container {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: rgba(197, 197, 197, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  height: calc(120px + 350px - (3 * 10vw));
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: -20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 260px;
+}
+
+.identitas {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-height: 50px;
+  position: absolute;
+}
+
+.leftHalf {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-height: 50px;
+  margin-bottom: 140px;
+  margin-top: 80px;
+  justify-content: end;
+  margin-right: 5px;
+}
+
+.rightHalf {
+  flex: 1;
+  display: flex;
+  width: 100px;
+  max-height: 50px;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 140px;
+  margin-top: 80px;
+  margin-left: 5px;
+}
+input {
+  width: 30px;
+  padding: 10px;
+  margin: 0px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  border-radius: 8px;
+  border-color: white;
+  box-shadow: white;
+  text-align: center;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: medium;
+  font-size: 10px;
+}
+
+.buttonBox {
+  margin-bottom: 20px;
+}
+
+.results {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: -20px;
+  padding: 20px 20px 20px 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  justify-content: left;
+  padding-left: 8px;
+  padding-bottom: 2px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: white;
+  justify-content: left;
+}
+
+.wrapper {
+  white-space: nowrap;
+}
+
+.glass-button {
+  display: inline-block;
+  padding: 16px 32px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgb(218, 218, 218);
+  backdrop-filter: blur(30px);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.glass-button:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+  color: rgb(225, 225, 225);
+}
+
+.glass-button:active {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+.glass-buttonSave {
+  display: inline-block;
+  padding: 16px 32px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(255, 255, 255);
+  backdrop-filter: blur(30px);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.glass-buttonSave:hover {
+  background-color: rgba(231, 231, 231, 0.5);
+  color: rgb(73, 73, 73);
+}
+
+.glass-buttonSave:active {
+  background-color: rgba(37, 37, 37, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+.glass-buttonClear {
+  display: inline-block;
+  padding: 16px 32px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgb(255, 255, 255);
+  backdrop-filter: blur(30px);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.glass-buttonClear:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(236, 236, 236);
+}
+
+.glass-buttonClear:active {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: rgb(255, 255, 255);
+}
