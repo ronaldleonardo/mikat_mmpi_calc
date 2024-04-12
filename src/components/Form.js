@@ -1211,111 +1211,111 @@ const Form = () => {
           <div className="identitas">
             <span className="wrapper">
               <label>JK</label>
-              <input placeholder="JK"></input>
+              <input type="number" placeholder="JK"></input>
             </span>
             <span className="wrapper">
               <label>Ulangan</label>
-              <input placeholder="Ulangan"></input>
+              <input type="number" placeholder="Ulangan"></input>
             </span>
           </div>
           <div className="leftHalf">
             <span className="wrapper">
               <label>A</label>
-              <input placeholder="A"></input>
+              <input type="number" placeholder="A"></input>
             </span>
             <span className="wrapper">
               <label>R</label>
-              <input placeholder="R"></input>
+              <input type="number" placeholder="R"></input>
             </span>
             <span className="wrapper">
               <label>Mas</label>
-              <input placeholder="Mas"></input>
+              <input type="number" placeholder="Mas"></input>
             </span>
             <span className="wrapper">
               <label>Es</label>
-              <input placeholder="Es"></input>
+              <input type="number" placeholder="Es"></input>
             </span>
             <span className="wrapper">
               <label>Dy</label>
-              <input placeholder="Dy"></input>
+              <input type="number" placeholder="Dy"></input>
             </span>
             <span className="wrapper">
               <label>Do</label>
-              <input placeholder="Do"></input>
+              <input type="number" placeholder="Do"></input>
             </span>
             <span className="wrapper">
               <label>Re</label>
-              <input placeholder="Re"></input>
+              <input type="number" placeholder="Re"></input>
             </span>
             <span className="wrapper">
               <label>Pr</label>
-              <input placeholder="Pr"></input>
+              <input type="number" placeholder="Pr"></input>
             </span>
             <span className="wrapper">
               <label>St</label>
-              <input placeholder="St"></input>
+              <input type="number" placeholder="St"></input>
             </span>
             <span className="wrapper">
               <label>Cn</label>
-              <input placeholder="Cn"></input>
+              <input type="number" placeholder="Cn"></input>
             </span>
           </div>
           <div className="rightHalf">
             <span className="wrapper">
               <label>?</label>
-              <input placeholder="?"></input>
+              <input type="number" placeholder="?"></input>
             </span>
             <span className="wrapper">
               <label>L</label>
-              <input placeholder="L"></input>
+              <input type="number" placeholder="L"></input>
             </span>
             <span className="wrapper">
               <label>F</label>
-              <input placeholder="F"></input>
+              <input type="number" placeholder="F"></input>
             </span>
             <span className="wrapper">
               <label>K</label>
-              <input placeholder="K"></input>
+              <input type="number" placeholder="K"></input>
             </span>
             <span className="wrapper">
               <label>1</label>
-              <input placeholder="1"></input>
+              <input type="number" placeholder="1"></input>
             </span>
             <span className="wrapper">
               <label>2</label>
-              <input placeholder="2"></input>
+              <input type="number" placeholder="2"></input>
             </span>
             <span className="wrapper">
               <label>3</label>
-              <input placeholder="3"></input>
+              <input type="number" placeholder="3"></input>
             </span>
             <span className="wrapper">
               <label>4</label>
-              <input placeholder="4"></input>
+              <input type="number" placeholder="4"></input>
             </span>
             <span className="wrapper">
               <label>5</label>
-              <input placeholder="5"></input>
+              <input type="number" placeholder="5"></input>
             </span>
             <span className="wrapper">
               <label>6</label>
-              <input placeholder="6"></input>
+              <input type="number" placeholder="6"></input>
             </span>
             <span className="wrapper">
               <label>7</label>
-              <input placeholder="7"></input>
+              <input type="number" placeholder="7"></input>
             </span>
             <span className="wrapper">
               <label>8</label>
-              <input placeholder="8"></input>
+              <input type="number" placeholder="8"></input>
             </span>
             <span className="wrapper">
               <label>9</label>
-              <input placeholder="9"></input>
+              <input type="number" placeholder="9"></input>
             </span>
             <span className="wrapper">
               <label>0</label>
-              <input placeholder="0"></input>
+              <input type="number" placeholder="0"></input>
             </span>
           </div>
         </div>
